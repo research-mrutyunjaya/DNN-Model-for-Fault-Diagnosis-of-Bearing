@@ -1,6 +1,6 @@
 Num = 1;
 
-for i = 'A'%, 'B', 'C', 'D']
+for i = ['A', 'B', 'C', 'D']
     for j = ['1', '2', '3']
         cd 'D:\Line Center\DNN-Model-for-Fault-Diagnosis-of-Bearing\v43hmbwxpm-2\1 Data collected from a healthy bearing\'
         dat = append('H-', i, '-', j, '.mat');
